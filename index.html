@@ -41,16 +41,22 @@
 <div class="wrap"><div class="doc">
   <div class="eyebrow">SwapSafe</div>
   <h1>Privacy Policy</h1>
-  <p class="sub">Effective 23 July 2026 · SwapSafe is made by difiatech</p>
+  <p class="sub">Effective 23 July 2026 · SwapSafe is made by DIFIA Limited</p>
 
-  <div class="tldr"><p><b>The short version.</b> SwapSafe keeps everything on your device and, if you use iCloud, in your own private iCloud account. There are no SwapSafe accounts. We don't collect, see, sell, or share your information, and there's no tracking, analytics, or advertising. The one time the app talks to our world is to look up a product you scan — and it sends only the barcode number, nothing about you.</p></div>
+  <div class="tldr"><p><b>The short version.</b> SwapSafe keeps everything on your device and, if you use iCloud, in your own private iCloud account. There are no SwapSafe accounts. We don't collect, see, sell, or share your information, and there's no tracking, analytics, or advertising. When the app goes online it is always to service something you just asked for, and never to send anything to us — we run no server. See “When the app connects to the internet” below.</p></div>
 
   <h2>What the app stores — and where</h2>
   <p>Everything you enter — your children's profiles and photos, allergies and intolerances, reactions, medications and doses, food-introduction and immunotherapy records, saved recipes, and emergency action plans and contacts — is stored <strong>on your device</strong> and, when you are signed in to iCloud, copied to <strong>your own private iCloud database</strong> so your records survive a lost phone and stay in step across your devices.</p>
   <p>That iCloud copy sits in <em>your</em> Apple account, not ours. We have no server that receives or holds this information, and neither we nor Apple's app-facing systems give us any way to read it. If you are not signed in to iCloud, or you turn iCloud off for SwapSafe, the app simply keeps everything on the device.</p>
 
-  <h2>Scanning a product label</h2>
-  <p>When you scan or enter a product barcode, the app sends <strong>only that barcode number</strong> to the <strong>Open Food Facts</strong> database (openfoodfacts.org) to fetch the product's name and ingredients. No information about you or your children is included in that request. The camera is used solely to read the barcode on your device; photos of labels are not stored or transmitted.</p>
+  <h2>When the app connects to the internet</h2>
+  <p>SwapSafe has no server of its own, so nothing is ever sent to us. It makes three kinds of request, each only to carry out something you have just asked for:</p>
+  <ul>
+    <li><strong>Scanning a label</strong> — the app sends <strong>only the barcode number</strong> to the <strong>Open Food Facts</strong> database (openfoodfacts.org) to fetch that product's name and ingredients. Nothing about you or your children is included. The camera reads the barcode on your device; photos of labels are not stored or sent anywhere.</li>
+    <li><strong>Pasting a recipe link</strong> — the app fetches that web page to read its ingredient list, exactly as a browser would. The site you chose therefore sees your device's IP address and that the request came from SwapSafe. We do not choose these sites and have no relationship with them.</li>
+    <li><strong>A recipe's photo</strong> — if that page names a picture of the dish, the app downloads it from whatever host the page points at, so the app can show it and keep it for offline use. That host sees the same basic request information.</li>
+  </ul>
+  <p>Typing a recipe in as text involves no network request at all. Allergen flagging and the substitutions themselves are worked out on your device.</p>
 
   <h2>Camera, photos &amp; notifications</h2>
   <ul>
